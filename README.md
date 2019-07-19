@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/hale0558/test_b1/_apis/build/status/Submissions.pipelines-java?branchName=master)](https://dev.azure.com/hale0558/test_b1/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 
