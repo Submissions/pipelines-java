@@ -25,7 +25,11 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      env
+      echo
+      echo "Running Walker's bash inline"
+      date +%Y-%m-%dT%H:%M:%S
+      echo
+      env | sort
       echo
       pwd
       ls -l
