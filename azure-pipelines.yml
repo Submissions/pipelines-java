@@ -33,5 +33,6 @@ steps:
       env | sort
       echo
       pwd
-      ls -l
+      echo
+      tree -pugsCa
       # Use the environment variables input below to pass secret variables to this script
