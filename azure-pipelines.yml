@@ -20,3 +20,13 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your commands here
+      env
+      echo
+      pwd
+      ls -l
+      # Use the environment variables input below to pass secret variables to this script
